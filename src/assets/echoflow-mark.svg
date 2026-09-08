@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="60 40 200 200" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>EchoFlow app mark</title>
+<desc>Standalone square EchoFlow mark: dark charcoal rounded tile with nine waveform bars in a red-to-orange gradient.</desc>
+<defs>
+<linearGradient id="stateGrad" gradientUnits="userSpaceOnUse" x1="100" y1="140" x2="220" y2="140">
+<stop offset="0%" stop-color="#ef4444"/>
+<stop offset="25%" stop-color="#3b82f6"/>
+<stop offset="50%" stop-color="#a855f7"/>
+<stop offset="75%" stop-color="#22c55e"/>
+<stop offset="100%" stop-color="#f59e0b"/>
+</linearGradient>
+</defs>
+<rect x="60" y="40" width="200" height="200" rx="44" fill="#1e1e22" opacity="0.92"/>
+<rect x="100" y="129" width="8" height="22" rx="4" fill="url(#stateGrad)"/>
+<rect x="114" y="111" width="8" height="58" rx="4" fill="url(#stateGrad)"/>
+<rect x="128" y="123" width="8" height="34" rx="4" fill="url(#stateGrad)"/>
+<rect x="142" y="96" width="8" height="88" rx="4" fill="url(#stateGrad)"/>
+<rect x="156" y="115" width="8" height="50" rx="4" fill="url(#stateGrad)"/>
+<rect x="170" y="92" width="8" height="96" rx="4" fill="url(#stateGrad)"/>
+<rect x="184" y="125" width="8" height="30" rx="4" fill="url(#stateGrad)"/>
+<rect x="198" y="108" width="8" height="64" rx="4" fill="url(#stateGrad)"/>
+<rect x="212" y="130" width="8" height="20" rx="4" fill="url(#stateGrad)"/>
+</svg>
