@@ -19,7 +19,7 @@ import AuroraPill from './components/AuroraPill';
 import './App.css';
 
 // OFFICIAL DOWNLOAD LINK (Public GitHub Release Asset)
-const DOWNLOAD_URL = "https://github.com/singhtechie24/EchoFlow-Public/releases/download/v1.0.0/EchoFlow_1.0.0_x64-setup.exe";
+const DOWNLOAD_URL = "https://pub-af8b3b51667648c3bba2fea1dedcb69d.r2.dev/EchoFlow_1.0.0_x64-setup.exe";
 
 const Navbar = ({ theme, toggleTheme }: { theme: string, toggleTheme: () => void }) => {
   const [scrolled, setScrolled] = useState(false);
