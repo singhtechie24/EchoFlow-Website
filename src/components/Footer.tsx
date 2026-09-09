@@ -1,5 +1,6 @@
 import React from 'react';
 import logoImg from '../assets/echoflow-mark.svg';
+import './Footer.css';
 
 const Footer: React.FC = () => {
   return (

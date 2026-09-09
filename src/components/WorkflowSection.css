@@ -1,0 +1,54 @@
+/* WORKFLOW */
+.workflow-v4 {
+  padding-top: 40px !important;
+}
+
+/* STEPS */
+.steps-container-v4 { display: flex; gap: 40px; margin-top: 80px; justify-content: center; position: relative; }
+.step-item-v4 { flex: 1; max-width: 300px; position: relative; z-index: 2; }
+.step-icon-wrap-v4 { width: 64px; height: 64px; background: var(--accent); color: #fff; border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; box-shadow: 0 10px 30px rgba(0,122,255,0.2); transition: all 0.3s ease; }
+
+.workflow-master-line-v4 {
+  position: absolute;
+  top: 32px;
+  left: 15%;
+  right: 15%;
+  height: 4px;
+  background: #f0f0f0;
+  z-index: 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+[data-theme='dark'] .workflow-master-line-v4 { background: rgba(255,255,255,0.1); }
+
+.workflow-fill-line-v4 {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), #af52de);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+.step-label-v4 {
+  font-size: 10px;
+  font-weight: 900;
+  color: #888;
+  letter-spacing: 0.2em;
+  transition: color 0.5s ease;
+  display: block;
+  margin-top: 12px;
+}
+[data-theme='dark'] .step-label-v4 { color: rgba(255,255,255,0.4); }
+
+.step-item-v4 h3 {
+  margin: 12px 0;
+  color: #121212;
+  transition: color 0.5s ease;
+  font-size: 24px;
+}
+[data-theme='dark'] .step-item-v4 h3 { color: #FDFCF8; }
+
+.step-item-v4 p { color: #444; font-size: 15px; line-height: 1.6; transition: color 0.5s ease; }
+[data-theme='dark'] .step-item-v4 p { color: #a1a1a6; }
+
+@media (max-width: 900px) {
+  .workflow-master-line-v4 { display: none; }
+}

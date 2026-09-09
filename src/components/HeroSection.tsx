@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDownToLine, Play } from 'lucide-react';
 import { DOWNLOAD_URL } from '../constants';
+import './HeroSection.css';
 
 const HeroSection: React.FC = () => {
   return (

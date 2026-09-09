@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Moon, Sun } from 'lucide-react';
+import './Navbar.css';
 import logoImg from '../assets/echoflow-mark.svg';
 
 interface NavbarProps {
