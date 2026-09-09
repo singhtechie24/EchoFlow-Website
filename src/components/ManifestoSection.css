@@ -1,0 +1,45 @@
+/* MANIFESTO */
+.manifesto-grid-v4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 60px;
+}
+
+.manifesto-card-v4 {
+  padding: 40px;
+  background: rgba(0,0,0,0.02);
+  border-radius: 40px;
+  border: 1px solid var(--border);
+}
+
+[data-theme='dark'] .manifesto-card-v4 {
+  background: rgba(255,255,255,0.03);
+}
+
+.manifesto-card-v4 h3 {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #121212;
+  transition: color 0.5s ease;
+}
+
+[data-theme='dark'] .manifesto-card-v4 h3 {
+  color: #FDFCF8;
+}
+
+.manifesto-card-v4 p {
+  color: #86868b;
+  line-height: 1.7;
+  font-size: 17px;
+  transition: color 0.5s ease;
+}
+
+[data-theme='dark'] .manifesto-card-v4 p {
+  color: #a1a1a6;
+}
+
+.accent-icon-v4 { color: var(--accent); }
+
+.manifesto-accent-card-v4 { position: relative; overflow: hidden; }
+.manifesto-asset-wrap-v4 { width: 80px; height: 80px; background: #000; border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+.manifesto-asset-v4 { width: 50px; height: 50px; }

@@ -1,0 +1,120 @@
+/* SETUP / ONBOARDING SECTION */
+.onboarding-grid-v4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.onboard-card-v4 {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 32px;
+  padding: 40px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.onboard-icon-v4 {
+  width: 56px;
+  height: 56px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+.onboard-card-v4 h3 { font-size: 22px; margin-bottom: 12px; }
+.onboard-card-v4 p { font-size: 14px; color: #666; line-height: 1.6; }
+[data-theme='dark'] .onboard-card-v4 p { color: #a1a1a6; }
+
+.onboarding-support-grid-v4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.support-card-v4 {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 32px;
+  padding: 40px;
+  text-align: left;
+  position: relative;
+}
+.accent-support-v4 { border-color: var(--accent); background: var(--accent-soft); }
+.support-badge-v4 {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 16px;
+  display: block;
+}
+.support-card-v4 h4 { font-size: 20px; margin-bottom: 8px; }
+.support-card-v4 p { font-size: 14px; color: #666; line-height: 1.6; }
+[data-theme='dark'] .support-card-v4 p { color: #a1a1a6; }
+
+/* SETUP STEPS */
+.setup-v4 { padding-top: 80px; }
+.setup-card-v4 {
+  max-width: 900px;
+  margin: 60px auto 0;
+  background: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 40px;
+  padding: 60px;
+  position: relative;
+  text-align: left;
+  box-shadow: 0 40px 100px rgba(0,0,0,0.1);
+}
+.setup-badge-v4 {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  padding: 6px 14px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+.setup-step-row-v4 { display: flex; gap: 32px; margin-bottom: 48px; }
+.setup-step-row-v4:last-child { margin-bottom: 0; }
+
+.setup-step-icon-v4 {
+  width: 56px;
+  height: 56px;
+  background: rgba(0,0,0,0.03);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  position: relative;
+  flex-shrink: 0;
+}
+[data-theme='dark'] .setup-step-icon-v4 { background: rgba(255,255,255,0.05); }
+
+.step-num-v4 {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  font-weight: 900;
+  opacity: 0.4;
+  letter-spacing: 0.1em;
+}
+
+.setup-step-content-v4 h3 { font-size: 22px; margin-bottom: 8px; color: #121212; transition: color 0.5s ease; }
+[data-theme='dark'] .setup-step-content-v4 h3 { color: #FDFCF8; }
+.setup-step-content-v4 p { color: #444; font-size: 15px; line-height: 1.6; transition: color 0.5s ease; }
+[data-theme='dark'] .setup-step-content-v4 p { color: #a1a1a6; }
+
+@media (max-width: 900px) {
+  .onboarding-grid-v4, .onboarding-support-grid-v4 { grid-template-columns: 1fr; }
+  .setup-card-v4 { padding: 30px; }
+  .setup-step-row-v4 { flex-direction: column; gap: 16px; }
+  .setup-badge-v4 { position: static; margin-bottom: 20px; display: inline-block; }
+}
