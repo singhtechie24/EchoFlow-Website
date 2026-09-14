@@ -7,7 +7,6 @@ const FAQSection: React.FC = () => {
       <div className="content-v4 center-text-v4">
         <span className="label-v4">FAQ</span>
         <h2 className="massive-v4">Got questions? <br /><span className="italic-serif">We've got answers.</span></h2>
-        <p className="large-p-v4">If you don't see your question, <a href="mailto:support@echoflow.ai" className="faq-link-v4">get in touch</a>.</p>
 
         <div className="faq-container-v4">
           <FAQItem

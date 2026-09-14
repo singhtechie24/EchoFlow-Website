@@ -22,19 +22,11 @@ const Footer: React.FC = () => {
           <a href="#demo">How it works</a>
           <a href="#privacy">Privacy</a>
         </div>
-        
-        <div className="footer-nav-col-v4">
-          <h4>SUPPORT</h4>
-          <a href="mailto:support@echoflow.ai">Email Support</a>
-        </div>
       </div>
       
       <div className="footer-bottom-v4">
         <div className="footer-copyright-v4">
           © 2026 EchoFlow. All rights reserved.
-        </div>
-        <div className="footer-domain-v4">
-          echoflow.ai
         </div>
       </div>
     </footer>
