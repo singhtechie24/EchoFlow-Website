@@ -5,7 +5,6 @@ import './EngineSection.css';
 
 const tableRows = [
   { cap: "100% On-device processing", echo: true, std: false, cloud: false },
-  { cap: "Sub-second Latency", echo: true, std: "Partial", cloud: false },
   { cap: "Choose your own model", echo: true, std: false, cloud: "Partial" },
   { cap: "No subscription required", echo: true, std: true, cloud: false },
   { cap: "Global Hotkey / PTT", echo: true, std: "Partial", cloud: "Partial" },

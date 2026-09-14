@@ -12,7 +12,7 @@ const TrustSection: React.FC = () => {
             <h2>Dictation without <span className="italic-serif">surveillance.</span></h2>
             <p className="large-p-v4">Most AI companies sell your data to train their models. We don't even have a server to send it to.</p>
             <div className="trust-badge-v4">
-              <ShieldCheck size={20} /> 100% Local Processing Verified
+              <ShieldCheck size={20} /> 100% Local Processing
             </div>
           </div>
         </div>

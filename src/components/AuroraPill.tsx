@@ -9,8 +9,8 @@ const AuroraPill = () => {
   const [isAuto, setIsAuto] = useState(true);
 
   const phases: { id: Phase; label: string; color: string; icon: React.ReactNode; desc: string }[] = [
-    { id: 'recording', label: 'Recording', color: '#ff3b30', icon: <Mic size={14} />, desc: 'Capturing your voice with zero latency.' },
-    { id: 'transcribing', label: 'Transcribing', color: '#007aff', icon: <Cpu size={14} />, desc: 'Converting speech into text locally on your GPU.' },
+    { id: 'recording', label: 'Recording', color: '#ff3b30', icon: <Mic size={14} />, desc: 'Capturing your voice as you speak.' },
+    { id: 'transcribing', label: 'Transcribing', color: '#007aff', icon: <Cpu size={14} />, desc: 'Converting speech into text locally on your PC.' },
     { id: 'cleaning', label: 'Cleaning', color: '#af52de', icon: <Sparkles size={14} />, desc: 'AI-powered polishing: removing ums, ahs, and stutters.' },
     { id: 'inserting', label: 'Inserting', color: '#30d158', icon: <ArrowDownToLine size={14} />, desc: 'Pasting the perfect text directly into your active window.' },
     { id: 'loading', label: 'Loading', color: '#ff9500', icon: <RefreshCcw size={14} />, desc: 'Optimizing local models for your next session.' },

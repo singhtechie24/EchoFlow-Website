@@ -9,7 +9,7 @@ const CTASection: React.FC = () => {
     <section className="cta-v4" style={{ padding: '0 8%' }}>
       <div className="cta-box-v4 refined-cta-box-v4">
         <h2>Ready to find your <span className="italic-serif">flow</span>?</h2>
-        <p>Join thousands of writers, coders, and thinkers using EchoFlow.</p>
+        <p>Free for Windows. No account needed.</p>
         <div className="cta-wrapper-v4" style={{ marginTop: '24px' }}>
           <motion.div
             animate={{ scale: [1, 1.05, 1], opacity: [0.1, 0.2, 0.1] }}

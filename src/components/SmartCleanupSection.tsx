@@ -81,22 +81,22 @@ const SmartCleanupSection: React.FC = () => {
 
           <div className="details-item-v4">
             <div className="details-icon-v4"><Type size={20} /></div>
-            <h4>Perfect Punctuation</h4>
-            <p>Commas, periods, and dashes land exactly where they belong.</p>
+            <h4>Clean Formatting</h4>
+            <p>Sentences start with a capital letter and end with proper punctuation.</p>
             <div className="punct-preview-v4">
-              <span className="raw-text-v4">what time...</span>
+              <span className="raw-text-v4">what time is it</span>
               <span className="arrow-v4">→</span>
-              <span className="clean-text-v4">What time?</span>
+              <span className="clean-text-v4">What time is it.</span>
             </div>
           </div>
 
           <div className="details-item-v4">
             <div className="details-icon-v4"><BrainCircuit size={20} /></div>
-            <h4>Self-Corrections</h4>
-            <p>Changed your mind? We catch the version you actually meant.</p>
+            <h4>Stutter Removal</h4>
+            <p>Repeated words like 'the the' are collapsed automatically.</p>
             <div className="correction-pill-v4">
-              <span className="strikethrough-v4">today</span>
-              <span className="success-v4">tomorrow</span>
+              <span className="strikethrough-v4">the the</span>
+              <span className="success-v4">the</span>
             </div>
           </div>
         </div>

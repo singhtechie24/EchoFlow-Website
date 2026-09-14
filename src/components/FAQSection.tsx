@@ -15,7 +15,7 @@ const FAQSection: React.FC = () => {
           />
           <FAQItem
             question="What is Smart Cleanup?"
-            answer="Smart Cleanup is our proprietary AI engine that removes fillers like 'um' and 'uh', corrects grammar, and transforms messy dictation into polished text instantly."
+            answer="Smart Cleanup removes filler words like 'um' and 'uh', collapses repeated words, and fixes capitalization and sentence-ending punctuation. Optional AI writing styles can then polish the text further for the app you're in."
           />
           <FAQItem
             question="Why does it require Windows 10 or 11?"
